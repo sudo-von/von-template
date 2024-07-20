@@ -1,0 +1,21 @@
+{
+  "author": "Jesús Ángel Rodríguez Martínez",
+  "bugs": {
+    "url": "https://github.com/sudo-von/von-template/issues"
+  },
+  "description": "Backend template.",
+  "homepage": "https://github.com/sudo-von/von-template#readme",
+  "keywords": [
+    "backend-template",
+    "sudo-von"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "backend-template",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sudo-von/von-template.git"
+  },
+  "scripts": {},
+  "version": "0.0.0"
+}

@@ -1,0 +1,24 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/rush/v5/rush.schema.json",
+  "eventHooks": {
+    "postRushBuild": [],
+    "postRushInstall": [],
+    "postRushx": [],
+    "preRushBuild": [],
+    "preRushInstall": [],
+    "preRushx": []
+  },
+  "gitPolicy": {},
+  "nodeSupportedVersionRange": ">=18.20.3 <19.0.0 || >=20.14.0 <21.0.0",
+  "pnpmVersion": "8.15.8",
+  "projects": [
+    {
+      "packageName": "backend-template",
+      "projectFolder": "templates/backend-template"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/sudo-von/von-template"
+  },
+  "rushVersion": "5.129.6"
+}
