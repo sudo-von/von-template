@@ -10,12 +10,22 @@
     "sudo-von"
   ],
   "license": "ISC",
-  "main": "index.js",
+  "main": "app.js",
   "name": "backend-template",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sudo-von/von-template.git"
   },
-  "scripts": {},
-  "version": "0.0.0"
+  "scripts": {
+    "build": "tsc",
+    "start:development": "nodemon src/app.ts",
+    "start:production": "node dist/app.js"
+  },
+  "version": "0.0.0",
+  "devDependencies": {
+    "typescript": "~5.5.3",
+    "@types/node": "~20.14.11",
+    "nodemon": "~3.1.4",
+    "ts-node": "~10.9.2"
+  }
 }

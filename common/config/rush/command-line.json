@@ -8,6 +8,20 @@
       "safeForSimultaneousRushProcesses": true,
       "shellCommand": "pretty-quick --staged",
       "summary": "Used by the pre-commit Git hook. This command invokes Prettier to reformat staged changes."
+    },
+    {
+      "commandKind": "bulk",
+      "enableParallelism": true,
+      "name": "start:development",
+      "safeForSimultaneousRushProcesses": true,
+      "summary": "This command starts all projects in development mode."
+    },
+    {
+      "commandKind": "bulk",
+      "enableParallelism": true,
+      "name": "start:production",
+      "safeForSimultaneousRushProcesses": true,
+      "summary": "This command starts all projects in production mode."
     }
   ],
   "parameters": []
